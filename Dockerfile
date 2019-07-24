@@ -1,4 +1,4 @@
-FROM melservice/ubuntu-webserver:latest
+FROM melservice/ubuntu-server:latest
 
 LABEL version="1.0" \
 	description="Webserver als Service auf Ubuntu-Basis" \

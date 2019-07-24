@@ -19,7 +19,7 @@ function stopService {
 # per Trap wird der Dienst wieder heruntergefahren
 trap 'stopService; exit $?' EXIT SIGINT SIGKILL SIGTERM
 
-# Der https-Proxy wird gestartet
+# Der Webserver wird gestartet
 
 echo sleep 10
 sleep 10;
